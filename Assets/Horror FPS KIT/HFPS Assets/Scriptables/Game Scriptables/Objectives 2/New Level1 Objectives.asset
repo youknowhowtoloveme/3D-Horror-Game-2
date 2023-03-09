@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: New Level1 Objectives
   m_EditorClassIdentifier: 
   Objectives:
-  - shortName: Collect 8 Pages to unlock next level
+  - shortName: Collect 8 Apples to unlock next level
     eventID: 1
-    objectiveText: Collect 8 Pages to unlock next level
-    completeCount: 0
+    objectiveText: Collect 3 Apples {0}/{1}
+    completeCount: 3
     objectiveID: 0
     localeKey: 
   enableLocalization: 0
