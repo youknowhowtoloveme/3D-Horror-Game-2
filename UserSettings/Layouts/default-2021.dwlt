@@ -193,7 +193,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 151
+  controlID: 41
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -218,7 +218,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 152
+  controlID: 47
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -243,7 +243,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 153
+  controlID: 48
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -263,8 +263,8 @@ MonoBehaviour:
     y: 0
     width: 604
     height: 867
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -306,7 +306,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProjectBrowser
+  m_Name: ConsoleWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -315,15 +315,15 @@ MonoBehaviour:
     y: 867
     width: 1952
     height: 464
-  m_MinSize: {x: 231, y: 271}
-  m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 19}
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 19}
   - {fileID: 20}
   - {fileID: 15}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -509,25 +509,25 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: bc84feff
-      m_LastClickedID: -97092
-      m_ExpandedIDs: b884feffe8b5fefff2b5feff5ad5feff6ad5feff74d5feff88d7feff98d7feffa2d7feff00fbffff
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 3c6ffcffa2c1ffff00fbffffca700000e0730000d2cb00007efc00004e2c01009c650100
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Lamp
-        m_OriginalName: Lamp
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -84520
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 11}
+        m_ClientGUIView: {fileID: 3}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -794,9 +794,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 5.06048, y: -1.9955883, z: -111.21269}
+    m_Target: {x: -7.773051, y: -8.846511, z: -118.32958}
     speed: 2
-    m_Value: {x: 5.06048, y: -1.9955883, z: -111.21269}
+    m_Value: {x: -7.773051, y: -8.846511, z: -118.32958}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -843,13 +843,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.115562566, y: -0.019108744, z: 0.002209403, w: 0.9932845}
+    m_Target: {x: 0.20480117, y: -0.648348, z: 0.18683498, w: 0.7094468}
     speed: 2
-    m_Value: {x: 0.11554299, y: -0.019105507, z: 0.002209029, w: 0.9931163}
+    m_Value: {x: 0.20474787, y: -0.64817923, z: 0.18678634, w: 0.70926213}
   m_Size:
-    m_Target: 10.45
+    m_Target: 10
     speed: 2
-    m_Value: 10.45
+    m_Value: 10
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -916,22 +916,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/PillarsPack/Prefabs/Pilars
+    - Assets/Horror FPS KIT/HFPS Assets/Content/Scripts/Core/Base/UI/Objective
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/PillarsPack/Prefabs/Pilars
+  - Assets/Horror FPS KIT/HFPS Assets/Content/Scripts/Core/Base/UI/Objective
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\halob\Desktop\Horror Game Project\3D-Horror-Game-2
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 93}
-    m_SelectedIDs: 589a0100
-    m_LastClickedID: 105048
-    m_ExpandedIDs: 0000000020930100229301002493010026930100289301002a9301002c9301002e93010030930100329301003493010036930100389301003a9301003c9301003e93010040930100429301004493010046930100489301004a9301004c9301004e93010050930100529301005493010056930100589301005a9301005c9301005e93010060930100629301006493010066930100689301006a9301006c9301006e93010070930100729301007493010076930100789301007a9301007c930100549a01006a9a01006c9a010000ca9a3b
+    scrollPos: {x: 0, y: 2361}
+    m_SelectedIDs: aa0a1400
+    m_LastClickedID: 1313450
+    m_ExpandedIDs: 0000000046930100489301004a9301004c9301004e93010050930100529301005493010056930100589301005a9301005c9301005e93010060930100629301006493010066930100689301006a9301006c9301006e93010070930100729301007493010076930100789301007a9301007c9301007e93010080930100829301008493010086930100889301008a9301008c9301008e93010090930100929301009493010096930100989301009a9301009c9301009e930100a0930100a2930100e8950100ee950100089601009696010098960100a296010030a2030000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -959,7 +959,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000020930100229301002493010026930100289301002a9301002c9301002e93010030930100329301003493010036930100389301003a9301003c9301003e93010040930100429301004493010046930100489301004a9301004c9301004e93010050930100529301005493010056930100589301005a9301005c9301005e93010060930100629301006493010066930100689301006a9301006c9301006e93010070930100729301007493010076930100789301007a9301007c930100
+    m_ExpandedIDs: 0000000046930100489301004a9301004c9301004e93010050930100529301005493010056930100589301005a9301005c9301005e93010060930100629301006493010066930100689301006a9301006c9301006e93010070930100729301007493010076930100789301007a9301007c9301007e93010080930100829301008493010086930100889301008a9301008c9301008e93010090930100929301009493010096930100989301009a9301009c9301009e930100a0930100a2930100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -984,8 +984,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
+    m_SelectedInstanceIDs: 72150000
+    m_LastClickedInstanceID: 5490
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c62300009e01020000000000bc050700247101001a9a0100
     m_RenameOverlay:
@@ -1003,7 +1003,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 12}
+      m_ClientGUIView: {fileID: 13}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
