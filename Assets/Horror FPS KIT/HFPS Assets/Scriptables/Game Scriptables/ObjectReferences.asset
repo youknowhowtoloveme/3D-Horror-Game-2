@@ -133,3 +133,6 @@ MonoBehaviour:
   - GUID: 1139d8eedc98ecf4391e359b50ccdca3
     Object: {fileID: 1024846367479426655, guid: 1139d8eedc98ecf4391e359b50ccdca3,
       type: 3}
+  - GUID: 4c1cd970fae318d4e814074f050b1506
+    Object: {fileID: 4486108167767729095, guid: 4c1cd970fae318d4e814074f050b1506,
+      type: 3}
