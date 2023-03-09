@@ -4,7 +4,7 @@ MonoImporter:
   externalObjects: {}
   serializedVersion: 2
   defaultReferences:
-  - SceneObjectives: {fileID: 11400000, guid: d4d55b5e68cccf34685fd2fb2ecd80fc, type: 2}
+  - SceneObjectives: {instanceID: 0}
   - ObjectivesUI: {instanceID: 0}
   - PushObjectivesUI: {instanceID: 0}
   - ObjectivePrefab: {instanceID: 0}

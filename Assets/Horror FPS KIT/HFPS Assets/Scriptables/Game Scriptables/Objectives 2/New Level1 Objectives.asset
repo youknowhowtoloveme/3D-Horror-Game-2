@@ -19,4 +19,4 @@ MonoBehaviour:
     completeCount: 0
     objectiveID: 0
     localeKey: 
-  enableLocalization: 1
+  enableLocalization: 0
