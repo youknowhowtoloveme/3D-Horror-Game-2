@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Objectives:
   - shortName: Collect 8 pages to unlock next level
-    eventID: 1
+    eventID: 
     objectiveText: Collect 8 Pages {0}/{1}
     completeCount: 8
     objectiveID: 0
