@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 17083
+  controlID: 57899
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 17084
+  controlID: 57900
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -169,7 +169,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 17085
+  controlID: 57865
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -227,10 +227,10 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 10007}
+      scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 00fbffff3cdc0000
+      m_ExpandedIDs: b4c7ffffc8c7ffffd0c7ffff00fbffff3cdc0000b02c0100
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -402,7 +402,7 @@ MonoBehaviour:
       containerId: overlay-container--right
       floating: 0
       collapsed: 0
-      displayed: 0
+      displayed: 1
       snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
@@ -540,9 +540,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.6961138, y: -17.705975, z: -106.23941}
+    m_Target: {x: -8.466034, y: -3.2713046, z: -99.12447}
     speed: 2
-    m_Value: {x: 0.6961138, y: -17.705975, z: -106.23941}
+    m_Value: {x: -8.466034, y: -3.2713046, z: -99.12447}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -589,9 +589,9 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.5557766, y: -0.12959889, z: 0.087347955, w: 0.8168701}
+    m_Target: {x: 0.12939377, y: -0.34717324, z: 0.04777349, w: 0.9279584}
     speed: 2
-    m_Value: {x: 0.55561274, y: -0.12956068, z: 0.0873222, w: 0.81662923}
+    m_Value: {x: 0.129351, y: -0.3470585, z: 0.047757704, w: 0.92765176}
   m_Size:
     m_Target: 10
     speed: 2
@@ -690,21 +690,23 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Interactive/ExaminableItems/Papers
+    - Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Instantiable/InventoryItems/Health
+      Items
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Interactive/ExaminableItems/Papers
+  - Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Instantiable/InventoryItems/Health
+    Items
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\halob\Desktop\Horror Game Project\3D-Horror-Game-2
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 1833}
-    m_SelectedIDs: fe960100
-    m_LastClickedID: 104190
+    scrollPos: {x: 0, y: 1577}
+    m_SelectedIDs: ee960100
+    m_LastClickedID: 104174
     m_ExpandedIDs: 00000000fa930100fc930100fe93010000940100029401000494010006940100089401000a9401000c9401000e94010010940100129401001494010016940100189401001a9401001c9401001e94010020940100229401002494010026940100289401002a9401002c9401002e94010030940100329401003494010036940100389401003a9401003c9401003e94010040940100429401004494010046940100489401004a9401004c9401004e94010050940100529401005494010056940100589401005a9401005c9401005e940100609401000e96010000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -758,8 +760,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 566b0100
-    m_LastClickedInstanceID: 93014
+    m_SelectedInstanceIDs: 068f0000
+    m_LastClickedInstanceID: 36614
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c62300009e01020000000000bc050700247101001a9a010012aa0100006b0100
     m_RenameOverlay:
@@ -849,7 +851,7 @@ MonoBehaviour:
     m_SaveData: []
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -74196
+  m_LastSelectedObjectID: -116534
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -911,7 +913,7 @@ MonoBehaviour:
     m_CachedPref: 160
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: 93014
+  m_LastInspectedObjectInstanceID: 36614
   m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0

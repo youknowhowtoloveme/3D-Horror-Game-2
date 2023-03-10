@@ -136,9 +136,7 @@ MonoBehaviour:
   messageTips: []
   titleOrMsg: 
   examineTitle: 
-  paperText: 'love you
-
-'
+  paperText: It Hears You!!
   titleMsgKey: 
   examineKey: Paper.Message01
   inventoryID: 0

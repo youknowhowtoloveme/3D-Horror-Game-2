@@ -15,8 +15,8 @@ MonoBehaviour:
   Objectives:
   - shortName: Collect 8 pages to unlock next level
     eventID: 1
-    objectiveText: Collect 3 Pages {0}/{1}
-    completeCount: 3
+    objectiveText: Collect 8 Pages {0}/{1}
+    completeCount: 8
     objectiveID: 0
     localeKey: 
   enableLocalization: 0
