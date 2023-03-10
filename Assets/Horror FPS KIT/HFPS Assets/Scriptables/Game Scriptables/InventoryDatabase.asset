@@ -2124,7 +2124,7 @@ MonoBehaviour:
       descriptionKey: 
   - Title: paper 2
     ID: 39
-    Description: paper the monster
+    Description: 
     itemType: 0
     useActionType: 0
     itemSprite: {fileID: 0}

@@ -127,18 +127,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73fcb51f6d678d2498af4fb5f59a2c8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemTitle: 
+  itemTitle: Apple
   itemType: 0
   examineType: 3
-  examineRotate: 0
+  examineRotate: 3
   messageType: 0
   disableType: 0
   messageTips: []
   titleOrMsg: 
   examineTitle: 
-  paperText: 'love you
-
-'
+  paperText: It Watches You!!
   titleMsgKey: 
   examineKey: Paper.Message01
   inventoryID: 0
@@ -157,7 +155,7 @@ MonoBehaviour:
   autoShortcut: 0
   autoSwitch: 0
   interactShowTitle: 0
-  allowExamineTake: 1
+  allowExamineTake: 0
   floatingIcon: 1
   faceCamera: 1
   mouseClickPickup: 0
