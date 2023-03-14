@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 23
+  controlID: 110
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 24
+  controlID: 111
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -169,7 +169,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 25
+  controlID: 112
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -403,10 +403,10 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 2128}
+      scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 7caeffff2cafffff2eb0ffffaeb1ffffe6b3ffffdab8ffff22e5ffff86e6ffff5aecffff02fbffff32780000
+      m_ExpandedIDs: 9030ffff9230ffff9a30ffffa230ffffaa30ffffcc31ffffce31ffffd631ffffde31ffffe631fffff832fffffa32ffff0233ffff0a33ffff1233ffffb434ffffb634ffffbe34ffffc634ffffce34ffff8635ffff0636ffffaa37ffff9638ffffd6b2ffffacbdffffe8beffffcabfffffd6c4ffff02c8ffffa8caffff7acbffffa6d0ffff56dcffffeedfffff8ce8ffffceefffff02fbffff466f00009c7200002c760000f2760000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -689,9 +689,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -7.740092, y: 19.194578, z: -60.591522}
+    m_Target: {x: 7.411308, y: 16.706398, z: 4.116501}
     speed: 2
-    m_Value: {x: -7.740092, y: 19.194578, z: -60.591522}
+    m_Value: {x: 7.411308, y: 16.706398, z: 4.116501}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -738,13 +738,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.06517445, y: 0.06672648, z: -0.0036573454, w: 0.9956339}
+    m_Target: {x: -0.10558343, y: 0.004727794, z: -0.0010338653, w: -0.99412984}
     speed: 2
-    m_Value: {x: 0.06516889, y: 0.068219855, z: -0.0037551026, w: 0.9955326}
+    m_Value: {x: -0.10561309, y: 0.0032374596, z: -0.0008757231, w: -0.99440163}
   m_Size:
-    m_Target: 3.1550915
+    m_Target: 80.80813
     speed: 2
-    m_Value: 3.1551015
+    m_Value: 84.615845
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -811,22 +811,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/The Wasteland LITE/Prefabs/Walls, Blocks
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/The Wasteland LITE/Prefabs/Walls, Blocks
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\ragem\Desktop\4410 Game Programming\3D-Horror-Game-2
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 1158.3334}
-    m_SelectedIDs: e2a50000
-    m_LastClickedID: 42466
-    m_ExpandedIDs: 00000000f87f0000fa7f0000fc7f0000fe7f000000800000028000000480000006800000088000000a8000000c800000108200005c8200006c8200007e820000848200001ca5000078a50000d8a50000
+    scrollPos: {x: 0, y: 31}
+    m_SelectedIDs: a8790000
+    m_LastClickedID: 31144
+    m_ExpandedIDs: 00000000a8790000aa790000ac790000ae790000b0790000b2790000b4790000b6790000b8790000ba790000bc790000c4790000cc790000127a0000347a00003e7a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -854,7 +854,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000f87f0000fa7f0000fc7f0000fe7f000000800000028000000480000006800000088000000a8000000c800000
+    m_ExpandedIDs: 00000000a8790000aa790000ac790000ae790000b0790000b2790000b4790000b6790000b8790000ba790000bc790000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
