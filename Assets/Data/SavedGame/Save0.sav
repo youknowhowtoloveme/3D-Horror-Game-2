@@ -1,0 +1,88 @@
+{
+  "scene": "Level 2",
+  "levelName": "Level 2",
+  "levelNameKey": null,
+  "dateTime": "2023-04-11 10:46:01",
+  "playerData": {
+    "playerPosition": {
+      "x": -0.379073262,
+      "y": -0.0199999921,
+      "z": 95.29007,
+      "normalized": {
+        "x": -0.00397806661,
+        "y": -0.000209883714,
+        "z": 0.9999921,
+        "magnitude": 1.0,
+        "sqrMagnitude": 1.0
+      },
+      "magnitude": 95.2908249,
+      "sqrMagnitude": 9080.342
+    },
+    "cameraRotation": {
+      "x": -12.0032778,
+      "y": 12.8204288,
+      "normalized": {
+        "x": -0.683459938,
+        "y": 0.729988039,
+        "magnitude": 1.0,
+        "sqrMagnitude": 1.0
+      },
+      "magnitude": 17.56252,
+      "sqrMagnitude": 308.442078
+    },
+    "characterState": 0,
+    "playerHealth": 100.0
+  },
+  "itemSwitcherData": {
+    "switcherActiveItem": -1,
+    "switcherWeaponItem": -1,
+    "switcher_item_flashlight": {
+      "FlashlightItem": {
+        "batteryPercentage": 100.0
+      }
+    },
+    "switcher_item_lantern": {
+      "LanternItem": {
+        "lightPercentage": 100.0,
+        "lightIntensity": 1.0,
+        "flameAlpha": 0.0
+      }
+    },
+    "switcher_item_candle": {
+      "CandleItem": {
+        "candleScale": 0.00113
+      }
+    },
+    "switcher_item_pistol": {
+      "WeaponController": {
+        "bulletsInMag": 7,
+        "uiShown": false
+      }
+    },
+    "switcher_item_shotgun": {
+      "WeaponController": {
+        "bulletsInMag": 7,
+        "uiShown": false
+      }
+    }
+  },
+  "inventoryData": {
+    "inv_slots_count": 10,
+    "slotsData": {
+      "inv_slot_0": "null",
+      "inv_slot_1": "null",
+      "inv_slot_2": "null",
+      "inv_slot_3": "null",
+      "inv_slot_4": "null",
+      "inv_slot_5": "null",
+      "inv_slot_6": "null",
+      "inv_slot_7": "null",
+      "inv_slot_8": "null",
+      "inv_slot_9": "null"
+    }
+  },
+  "objectivesData": {
+    "activeObjectives": {},
+    "touchedObjectives": {}
+  }
+}
