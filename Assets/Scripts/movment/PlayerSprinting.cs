@@ -25,6 +25,7 @@ public class PlayerSprinting : MonoBehaviour
     void OnBeforeMove()
     {
         var sprintInput = sprintAction.ReadValue<float>();
+
         player.movementSpeedMultiplier *= sprintInput > 0 ? SpeedMultiplier : 1f;
     }
 }

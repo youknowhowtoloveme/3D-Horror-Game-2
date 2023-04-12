@@ -15,21 +15,35 @@ public class Player : MonoBehaviour
 
     [SerializeField] float acceleration = 20f;
 
-    [SerializeField] Transform cameraTransform;
+    public Transform cameraTransform;
+
+    public bool IsGrounded => controller.isGrounded;
+
+    bool wasGrounded;
 
     CharacterController controller;
 
-    Vector3 velocity;
+    internal Vector3 velocity;
 
     Vector2 look;
 
     PlayerInput playerInput;
     InputAction moveAction;
     InputAction lookAction;
-    InputAction jumpAction;
     InputAction sprintAction;
 
+
+    public float Height
+    {
+        get => controller.height;
+        set => controller.height = value;
+    }
+
+
+
+
     public event Action OnBeforeMove;
+    public event Action<bool> OnGroundStateChange;
     internal float movementSpeedMultiplier;
 
 
@@ -39,7 +53,6 @@ public class Player : MonoBehaviour
         playerInput = GetComponent<PlayerInput>();
         moveAction = playerInput.actions["move"];
         lookAction = playerInput.actions["look"];
-        jumpAction = playerInput.actions["jump"];
         sprintAction = playerInput.actions["sprint"];
     }
 
@@ -54,9 +67,29 @@ public class Player : MonoBehaviour
 
     void Update()
     {
+        UpdateGround();
+        UpdateGravity();
         UpdateMovement();
         UpdateLook();
     }
+
+    void UpdateGravity()
+    {
+        var gravity = Physics.gravity * mass * Time.deltaTime;
+        velocity.y = IsGrounded ? -1f : velocity.y + gravity.y;
+
+    }
+
+
+    void UpdateGround()
+    {
+        if( wasGrounded != IsGrounded)
+        {
+            OnGroundStateChange?.Invoke(IsGrounded);
+            wasGrounded = IsGrounded;
+        }
+    }
+
 
 
     Vector3 GetMovementInput()
@@ -90,11 +123,7 @@ public class Player : MonoBehaviour
         velocity.x = Mathf.Lerp(velocity.x, input.x, factor);
         velocity.z = Mathf.Lerp(velocity.z, input.z, factor);
 
-        var jumpInput = jumpAction.ReadValue<float>();
-        if(jumpInput > 0 && controller.isGrounded)
-        {
-            velocity.y += jumpSpeed;
-        }
+       
 
         controller.Move((velocity * Time.deltaTime));
     }
