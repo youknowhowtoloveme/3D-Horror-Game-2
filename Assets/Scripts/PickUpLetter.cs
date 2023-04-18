@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class PickUpLetter : MonoBehaviour
 {
-    public GameObject collectTextObj;
+    public GameObject collectTextObj, ExitGateTextObj;
     public AudioSource pickupSound, ambianceLayer1, ambianceLayer2, ambianceLayer3, ambianceLayer4, ambianceLayer5, ambianceLayer6, ambianceLayer7, ambianceLayer8;
     public bool interactable;
     public static int pagesCollected;
@@ -69,7 +69,10 @@ public class PickUpLetter : MonoBehaviour
                 {
                     ambianceLayer8.Play();
                 }
-              
+                if (pagesCollected >= 8)
+                {
+                    ExitGateTextObj.SetActive(true);
+                }
                 this.gameObject.SetActive(false);
                 interactable = false;
             }

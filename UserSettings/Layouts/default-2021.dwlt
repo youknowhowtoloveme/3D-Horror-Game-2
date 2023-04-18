@@ -43,7 +43,7 @@ MonoBehaviour:
     width: 2558
     height: 1381
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Project
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -97,7 +97,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 221}
   m_MaxSize: {x: 4000, y: 4021}
   vertical: 0
-  controlID: 201
+  controlID: 15
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -219,7 +219,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 17
+  controlID: 45
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -244,7 +244,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 23
+  controlID: 184
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -269,7 +269,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 24
+  controlID: 185
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -478,9 +478,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 118}
-      m_SelectedIDs: ae280100
-      m_LastClickedID: 75950
-      m_ExpandedIDs: 00fbffff46220100
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 00fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -763,9 +763,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -6.7997494, y: -5.098776, z: -99.39789}
+    m_Target: {x: -3.1145408, y: -2.716013, z: -97.697174}
     speed: 2
-    m_Value: {x: -6.7997494, y: -5.098776, z: -99.39789}
+    m_Value: {x: -3.1145408, y: -2.716013, z: -97.697174}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -812,9 +812,9 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.23578972, y: -0.2163459, z: 0.05024761, w: 0.9466697}
+    m_Target: {x: 0.13843127, y: -0.14590752, z: 0.017114842, w: 0.97998255}
     speed: 2
-    m_Value: {x: 0.23558326, y: -0.21764483, z: 0.050573155, w: 0.94581896}
+    m_Value: {x: 0.13845457, y: -0.13994731, z: 0.016274912, w: 0.98029596}
   m_Size:
     m_Target: 6.2529225
     speed: 2
@@ -885,22 +885,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/sounds
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/sounds
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\halob\Desktop\Horror Game Project\3D-Horror-Game-2
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: aa970100
-    m_LastClickedID: 104362
-    m_ExpandedIDs: 00000000aa970100ac970100ae970100b0970100b2970100b4970100b6970100b8970100ba970100bc970100be970100c0970100c2970100c4970100c6970100c8970100ca970100cc970100ce970100d0970100d2970100d4970100d6970100d8970100da970100dc970100de970100e0970100e2970100e4970100e6970100e8970100ea970100ec970100ee970100f0970100f2970100f4970100f6970100f8970100fa970100fc970100fe97010000980100029801000498010006980100089801000a9801000c9801000e9801001098010000ca9a3b
+    scrollPos: {x: 0, y: 3674}
+    m_SelectedIDs: a49c0100
+    m_LastClickedID: 105636
+    m_ExpandedIDs: 00000000aa970100ac970100ae970100b0970100b2970100b4970100b6970100b8970100ba970100bc970100be970100c0970100c2970100c4970100c6970100c8970100ca970100cc970100ce970100d0970100d2970100d4970100d6970100d8970100da970100dc970100de970100e0970100e2970100e4970100e6970100e8970100ea970100ec970100ee970100f0970100f2970100f4970100f6970100f8970100fa970100fc970100fe97010000980100029801000498010006980100089801000a9801000c9801000e98010010980100c49a0100fe9a010000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -955,7 +955,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c62300009e010200bc050700247101001a9a010012aa0100006b010000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
