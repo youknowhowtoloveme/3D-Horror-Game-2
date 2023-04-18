@@ -10,6 +10,13 @@ public class PickUpLetter : MonoBehaviour
     public bool interactable;
     public static int pagesCollected;
     public Text collectText;
+    public Animator anim;
+
+
+     void Start()
+    {
+        anim = GetComponent<Animator>();
+    }
 
     void OnTriggerStay(Collider other)
     {
@@ -72,6 +79,7 @@ public class PickUpLetter : MonoBehaviour
                 if (pagesCollected >= 8)
                 {
                     ExitGateTextObj.SetActive(true);
+                    anim.Play("movingwall");
                 }
                 this.gameObject.SetActive(false);
                 interactable = false;
