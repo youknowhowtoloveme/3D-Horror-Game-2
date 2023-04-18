@@ -13,6 +13,7 @@ public class PlayerSprinting : MonoBehaviour
     [SerializeField] float staminaDepletionRate = 10f;
     [SerializeField] float staminaRegenRate = 20f;
     [SerializeField] float sprintCost = 20f;
+    //[SerializeField] Image staminaBar;
 
     Player player;
     PlayerInput playerInput;
@@ -26,6 +27,7 @@ public class PlayerSprinting : MonoBehaviour
         playerInput = GetComponent<PlayerInput>();
         sprintAction = playerInput.actions["sprint"];
         currentStamina = staminaMax;
+        //staminaBar = GameObject.Find("StaminaBar").GetComponent<Image>();
         //UpdateStaminaUI();
     }
 
