@@ -5,18 +5,13 @@ using UnityEngine.UI;
 
 public class PickUpLetter : MonoBehaviour
 {
-    public GameObject collectTextObj, ExitGateTextObj;
+    public GameObject collectTextObj, ExitGateTextObj, BlackGate;
     public AudioSource pickupSound, ambianceLayer1, ambianceLayer2, ambianceLayer3, ambianceLayer4, ambianceLayer5, ambianceLayer6, ambianceLayer7, ambianceLayer8;
     public bool interactable;
     public static int pagesCollected;
     public Text collectText;
-    public Animator anim;
 
-
-     void Start()
-    {
-        anim = GetComponent<Animator>();
-    }
+    
 
     void OnTriggerStay(Collider other)
     {
@@ -79,7 +74,7 @@ public class PickUpLetter : MonoBehaviour
                 if (pagesCollected >= 8)
                 {
                     ExitGateTextObj.SetActive(true);
-                    anim.Play("movingwall");
+                    BlackGate.gameObject.SetActive(false);
                 }
                 this.gameObject.SetActive(false);
                 interactable = false;
